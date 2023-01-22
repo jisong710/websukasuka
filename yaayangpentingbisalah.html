@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;">
+<head>
+<title>Semesta's Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+button{
+  padding: 0;
+  border: none;
+  background: none;
+}
+.w3modal{
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Semesta Recipe</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="https://aircharterservice-globalcontent-live.cphostaccess.com/images/blog-images/fine-dining-restaurant-empty-table-banner_tcm36-49760.jpg" alt="Hamburger Catering" width="1600" height="600">
+  <div class="w3-display-left w3-padding-large w3-opacity w3-text-white">
+    <h1 class="w3-xxlarge">Welcome to Semesta Recipe</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="https://ae01.alicdn.com/kf/S1dae98f865534a79a9aa7bfe0be74252c/Custom-wall-mural-wallpaper-3D-Mediterranean-street-view-Photo-wallpaper-cafe-bar-restaurant-background-wall-papers.jpg_Q90.jpg_.webp" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Semesta Recipe</h1><br>
+      <h5 class="w3-center">Mangga Krista, mau diisi apa bebas kalo yang ini</h5>
+      <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="w3-tag w3-light-grey">seasonal</span> ingredients.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <h1 class="w3-center">Our Menu</h1><br>
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Savory</h1><br>
+      <button onclick="document.getElementById('id01').style.display='block'"><h4>Chicken salted eggs</h4></button>
+      <br>
+      <button onclick="document.getElementById('id02').style.display='block'"><h4>Ayam Geprek</h4></button>
+
+      <h1 class="w3-center">Drinks</h1><br>
+
+      <button onclick="document.getElementById('id03').style.display='block'"><h4>Smoothies Twin Cup</h4></button>
+      <br>
+      <button onclick="document.getElementById('id04').style.display='block'"><h4>Es Goyobod</h4></button>
+      <br>
+      <button onclick="document.getElementById('id05').style.display='block'"><h4>Brown Sugar Boba</h4></button>
+      <br>
+      <button onclick="document.getElementById('id06').style.display='block'"><h4>Mango Thai</h4></button>
+      <br>
+      <button onclick="document.getElementById('id07').style.display='block'"><h4>Pudot</h4></button>
+      <br>
+      <button onclick="document.getElementById('id08').style.display='block'"><h4>Dalgona Coffee korea</h4></button>
+      <br>
+      <button onclick="document.getElementById('id09').style.display='block'"><h4>Alpukat Kocok</h4></button>
+      <br>
+      <button onclick="document.getElementById('id10').style.display='block'"><h4>Mojito Cuy</h4></button>
+      <br>
+      <button onclick="document.getElementById('id11').style.display='block'"><h4>Strawberry Jam</h4></button>
+      <br>
+    </div>
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Snacks</h1><br>
+
+      <button onclick="document.getElementById('id12').style.display='block'"><h4>Kue Cubit</h4></button>
+      <br>
+        <button onclick="document.getElementById('id13').style.display='block'"><h4>Kue Pukis</h4></button>
+      <br>
+        <button onclick="document.getElementById('id14').style.display='block'"><h4>Fruit Sandwich</h4></button>
+      <br>
+        <button onclick="document.getElementById('id15').style.display='block'"><h4>Japanese Souffle Pancake</h4></button>
+      <br>
+        <button onclick="document.getElementById('id16').style.display='block'"><h4>Churros Renyah</h4></button> 
+      <br>
+        <button onclick="document.getElementById('id17').style.display='block'"><h4>Stick kentang keju seledri</h4></button>
+      <br>
+        <button onclick="document.getElementById('id18').style.display='block'"><h4>Lumpia Pisang Coklat</h4></button>
+      <br>
+        <button onclick="document.getElementById('id19').style.display='block'"><h4>Pangsit tahu goreng</h4></button>
+      <br>
+        <button onclick="document.getElementById('id20').style.display='block'"><h4>Sosis Mie Gulung</h4></button>
+      <br>
+        <button onclick="document.getElementById('id21').style.display='block'"><h4>Martabak Telur Mini</h4></button>
+      <br>
+      </div>
+  </div>
+
+  <hr>
+<!-- End page content -->
+</div>
+<div id="id02" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <img src="https://www.piknikdong.com/wp-content/uploads/2021/11/Resep-Ayam-Geprek-Bensu-min.jpg" alt="" srcset="" width="100%">
+      <h1>
+        Ayam Geprek
+      </h1><br>
+      <h3>Bahan</h3>
+      <p>
+        <b>Bahan Baku</b><br>
+            - 600 gr ayam <br>
+        <b>Bumbu Marinasi </b><br>
+            - 4 siung bawang putih, <br>
+            - 1 sdt lada bubuk <br>
+            - 1/2 sdt garam <br>
+        <b>Baluran</b><br>
+            - 1 butir telur <br>
+            - 100 gr (6 sdm) terigu <br>
+            - 30 gr (2 sdm) maizena <br>
+            - 1/2 sdt lada bubuk <br>
+            - 1/2 sdt kaldu bubuk <br>
+      </p>
+      <h3>Cara Membuat</h3>
+       <p>
+        Langkah 1 - Haluskan bumbu marinasi. Balurkan pada ayam, biarkan selama 2 jam, atau ungkep. <br>
+        Langkah 2 - Kocok lepas telur, kemudian balurkan pada ayam  <br>
+        Langkah 3 - Campurkan terigu, maizena, lada dan kaldu bubuk <br>
+        Langkah 4 - Lumuri ayam dengan tepung baluran hingga tertutupi semua, tepuk tepuk untuk melepaskan kelebihan tepungnya <br>
+        Langkah 5 - Panaskan minyak goreng, kemudian gunakan api sedang, goreng ayam hingga coklat keemasan, angkat kemudian tiriskan <br>
+        Langkah 6 - Gunakan batu ulekan untuk menggeprek ayam. Tekan ayam pelan pelan, supaya menjadi pipih, <br>
+        Langkah 7 - Beri sambal nya, lalu tekan lagi. Sajikan ayam geprek dengan lalapan sesuai selera <br>
+       </p>
+    </div>
+  </div>
+</div>
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <img src="https://cdn.idntimes.com/content-images/community/2019/06/gozun6c42nt5ikl7zcm62hbc8hsi109a-b33eb5ead2d8962f38f8d82f768f0570_600x400.jpg" alt="" srcset="" width="100%">
+      <h1>
+        Chicken Salted Egg
+      </h1><br>
+      <h3>Bahan</h3>
+      <p>
+        <b>Bahan Baku</b><br>
+            - 1 butir telor untuk coating <br>
+            - Secukupnya tepung maizena / tapioca/ tepung bumbu jadi <br>
+            - Secukupnya garam, merica <br>
+        <b>Bahan Saus </b><br>
+          - 3 butir kuning telor asin <br>
+          - Secukupnya air matang <br>
+          - 20 lembar daun kari <br>
+          - 2 biji cabe keriting (potong2) <br>
+          - Secukupnya susu (bisa di-skip) <br>
+          - 2 sdm margarin untuk menumis <br>
+          - Secukupnya garam, lada <br>
+          - 3 siung bawang putih (cincang) <br>
+        
+      </p>
+      <h3>Cara Membuat</h3>
+       <p>
+        Langkah 1 - Potong-potong ayam, taburi garam dan lada, diamkan kurleb 15 menit        <br>
+        Langkah 2 - Campurkan ayam yang sudah dimarinade dengan telur <br>
+        Langkah 3 - Siapkan tepung di dalam wadah. Ayam yang sudah dicampur telor dicelupkan, satu persatu ke dalam tepung lalu digoreng dalam minyak panas hingga matang. Angkat dan sisihkan<br>
+        Langkah 4 - Untuk membuat saus, lumatkan telur asin dengan sedikit air        <br>
+        Langkah 5 - Panaskan mentega dalam wajan, masukkan bawang putih, cabe, dan daun kari, tumis sebentar hingga harum.        <br>
+        Langkah 6 - Masukkan kuning telor asin, tambahkan air dan susu supaya sedikit creamy.        <br>
+        Langkah 7 - Tambahkan garam dan lada sesuai selera. Masukkan ayam, aduk sebentar hingga merata. Angkat dan siap disajikan. <br>
+       </p>
+    </div>
+  </div>
+</div>
+<div id="id03" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <img src="https://cetroocoffee.com/wp-content/uploads/2018/12/Twin-Cup-Smoothies.jpg" alt="" srcset="" width="100%">
+      <h1>
+        Twin Cup Smoothies
+      </h1><br>
+      <h3>Bahan</h3>
+      <p>
+        <b>Bahan Baku</b><br>
+        - Ice cream <br>
+        - Wadah twin <br>
+        - Strawberry <br>   
+         <b>Bahan chocolate banana smoothie:
+          </b><br>
+        - 1 buah pisang yang telah dibekukan <br>
+        - 3/4 cup susu cair <br>
+        - 3 sdm sirup cokelat <br>
+        - 3 buah es batu <br>
+        
+       <b>Bahan chocolate strawberry smoothie:
+        </b><br> 
+        - 2 cup susu kedelai rendah lemak rasa cokelat
+      <br>  - 1 cup strawberry (beku atau segar)
+      <br>  - 2 buah pisang ukuran sedang, potong-potong 
+      <br>
+      </p>
+      <h3>Cara Membuat</h3>
+       <p>
+        Langkah 1 - Campur dan haluskan masing-masing bahan (choco banana dan choco strawberry) secara terpisah menggunakan blender atau food processor.
+        <br>
+        Langkah 2 - Setelah jadi, masukkan ke wadah twin masing-masing.
+        <br>
+        Langkah 3 - Beri tambahkan ice cream sesuai selera.
+        <br>
+        Langkah 4 - Untuk atasannya, tambahkan potongan buah strawberry.
+        <br>
+
+       </p>
+    </div>
+  </div>
+</div>
+<div id="id04" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <img src="https://asset.kompas.com/crops/hyRV2ndN6FLBhMj0tqwJvsAFOK8=/0x410:800x943/750x500/data/photo/2021/09/27/6151cb11999ad.jpg" alt="" srcset="" width="100%">
+      <h1>
+        Es Goyobod
+      </h1><br>
+      <h3>Bahan</h3>
+      <p>
+        <b>Bahan Baku</b><br>
+          - Air 750 ml
+        <br>  - Garam 1 sdt
+        <br>  - Tepung Hunkue 60 gram
+        <br> - Gula merah 125 gram (disisir)        
+        <br>
+         <b>
+          Bahan kuah santan es goyobod:          
+          </b><br>
+
+          - Santan 1.000 ml (dari 1 butir kelapa)
+        <br>  - Gula merah 300 gram (disisir)
+        <br>  - Gula pasir 100 gram
+        <br>  - Garam 1/2 sdt
+        <br>  - Daun pandan 2 lembar (ikat/potong-potong)
+          <br>
+        
+       <b>Bahan isian
+        </b><br> 
+        - Kelapa muda 1 buah (belah dua, keruk daging buahnya)
+      <br>  - Alpukat 1 buah (belah dua, buang bijinya, keruk daging buahnya)
+      <br>  - Es serut/es batu secukupnya
+        
+      <br>
+      </p>
+      <h3>Cara Membuat</h3>
+       <p>
+        Langkah 1 - 
+        Siapkan loyang berukuran 17 x 24 x 3 cm. Basahi dalamnya dengan air matang, sisihkan.        
+        <br>
+        Langkah 2 - Larutkan tepung hunkue dengan sedikit air. Pasanaskan sisa air, campur dengan gula merah dan garam hingga mendidih di atas api sedang. Angkat dari atas api, saring.
+        <br>
+        Langkah 3 - Tuang kembali ke dalam panci. Masukkan tepung hunkue yang sudah dilarutkan ke panci berisi air gula, masak di atas api sedang sambil terus diaduk hingga mendidih.
+        <br>
+        Langkah 4 - Angkat dari atas api. Tuang adonan hunkue ke loyang tahan panas. Biarkan hingga dingin. Keluarkan dari loyang. Potong-potong bentuk dadu ukuran 1 cm.
+        <br>
+        Langkah 5 - Untuk kuah santannya, rebus santan, gula merah, garam, dan daun pandan sambil ditimba-timba hingga mendidih. Angkat dari atas api, saring.
+        <br>
+        Langkah 6 - Siapkan mangkuk, taruh 2-3 sdm goyobod dalam mangkuk. Tambahkan kelapa muda dan alpukat. Tuang kuah santan. Tambahkan es serut/es batu.
+        <br>
+
+       </p>
+    </div>
+  </div>
+</div>
+<div id="id05" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id05').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <img src="https://asset.kompas.com/crops/MdfnWde2Awyb0xYIm6Tcx2T75YI=/0x0:1000x667/780x390/data/photo/2019/09/26/5d8c4fff5f34c.jpg" alt="" srcset="" width="100%">
+      <h1>
+        Brown Sugar Boba
+      </h1><br>
+      <h3>Bahan</h3>
+      <p>
+        - 130 ml air <br>
+        - 70 gram gula aren sisir halus
+      <br>  - 400 gram tepung tapioka
+      <br>  - 1 sdt vanilla bubuk
+      <br>  - 300 gram palm sugar
+      <br>  - 1 gelas black tea pekat
+      <br>  - Susu UHT putih secukupnya
+      <br>  - Es batu secukupnya        
+      <br>
+      </p>
+      <h3>Cara Membuat</h3>
+       <p>
+        Langkah 1 - 
+        Rebus air hingga mendidih, masukkan gula aren. Aduk hingga gula larut. Masukkan Vanilla bubuk.
+        Masukkan tepung tapioka, aduk kental dan dapat dibentuk seperti play doh.            
+        <br>
+        Langkah 2 - Potong-potong dan bulatkan. Supaya tidak menempel, taruh di atas tepung tapioka.
+        <br>
+        Langkah 3 - Rebus hingga boba mengambang. Saring airnya, masukkan lagi ke panci dan tambahkan palm sugar. Aduk hingga kental dan ada sirupnya.
+        <br>
+        Langkah 4 - Siapkan gelas transparan, masukkan boba dengan sirupnya. Putar hingga syrup mengelilingi dinding gelas. Masukkan black tea yang sudah diseduh, susu UHT dan es batu.
+        <br>
+       </p>
+    </div>
+  </div>
+</div>
+<div id="id06" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id06').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <img src="https://img-global.cpcdn.com/recipes/a0b1343b9cd7d73f/680x482cq70/mango-thai-drink-jus-mangga-kekinian-foto-resep-utama.jpg" alt="" srcset="" width="100%">
+      <h1>
+        Mango Thai
+      </h1><br>
+      <h3>Bahan</h3>
+      <p>
+        - 2 buah mangga
+      <br>  - 2 sendok makan gula pasir
+      <br>  - 3 sdm susu kental manis (SKM)
+      <br>  - 50 gr whipped cream bubuk dan 100 ml air es, mixer
+      <br>  - Secukupnya es blok untuk blender mangga            
+      <br>
+      </p>
+      <h3>Cara Membuat</h3>
+       <p>
+        Langkah 1 - 
+        Kupas mangga hingga bersih. Ambil sedikit mangga untuk topping, potong dadu, sisihkan.
+            
+        <br>
+        Langkah 2 - Blender mangga, gula pasir, SKM dan es blok hingga halus.
+        <br>
+        Langkah 3 - Masukkan dalam gelas, jangan terlalu penuh, tambahkan whipped cream di atas jus mangga. 
+        <br>
+        Langkah 4 - Tutup dengan topping mangga potong dadu.
+        <br>
+       </p>
+    </div>
+  </div>
+</div>
+<div id="id07" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id07').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <img src="https://o-cdn-cas.sirclocdn.com/parenting/images/Cara-Membuat-Puding-Sedot-Favor.width-800.jpegquality-80.jpg" alt="" srcset="" width="100%">
+      <h1>
+        Pudot (Puding Sedot)
+      </h1><br>
+      <h3>Bahan</h3>
+      <p>
+       -  1 liter air
+      <br> -  3 sdm gula pasir
+      <br> - 3 sdm kental manis
+      <br> -  1 sdt nutrijel plain
+      <br> -  1 sdt tepung maizena
+      <br> -  2 bungkus pop ice rasa berbeda
+      <br>          
+      <br>
+      </p>
+      <h3>Cara Membuat</h3>
+       <p>
+        Langkah 1 - 
+        Campurkan air, gula pasir, dan kental manis.
+     
+        <br>
+        Langkah 2 - Rebus hingga mendidih, angkat.
+        <br>
+        Langkah 3 - Bagi menjadi dua di wadah berbeda, campurkan masing-masing dengan dua bungkus pop ice.
+        <br>
+        Langkah 4 - Aduk rata.Siapkan gelas-gelas kaca atau wadah tahan panas. 
+        <br>
+        Langkah 5 - Tuang setiap adonan puding ke dalamnya hingga penuh.
+
+        <br>
+        Langkah 6 - Diamkan hingga memadat. Tutup dan simpan di dalam kulkas.
+
+        <br>
+        Langkah 7 - Keluarkan pudot, sajikan dingin
+
+        <br>
+       </p>
+    </div>
+  </div>
+</div>
+<div id="id08" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id08').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <img src="https://cdn1-production-images-kly.akamaized.net/IXDTlIDku0NY5uKEDjUXCY9o0To=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3585598/original/092451100_1632809247-glass-dalgona-coffee-table_23-2148937248.jpg" alt="" srcset="" width="100%">
+      <h1>
+        Dalgona Coffe Korea
+      </h1><br>
+      <h3>Bahan</h3>
+      <p>
+       -  2 sdm kopi instan
+       <br> -  2 sdm gula pasir
+       <br> -  2 air panas
+       <br> -  satu cangkir susu hagat atau dingin(sesuai selera)                  
+      <br>
+      </p>
+      <h3>Cara Membuat</h3>
+       <p>
+        Langkah 1 - 
+        Campurkan kopi instan, gula pasir dan air panas.
+
+     
+        <br>
+        Langkah 2 - Aduk dengan whisk (untuk mengocok telur) secara terus-menerus hingga mengembang dan menjadi krim yang lembut.
+
+        <br>
+        Langkah 3 - Kocok selama dua menit dengan cepat. Jika ingin mempersingkat waktu bisa juga menggunakan hand mixer.
+        <br>
+        Langkah 4 - Setelah mengembang, tekturnya ringan dan lembut, tinggal tuang di atas susu.
+
+        <br>
+       </p>
+    </div>
+  </div>
+</div>
+<div id="id09" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id09').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <img src="https://www.dapurkintamani.com/wp-content/uploads/2021/05/sajikan-es-kocok-alpukat-500x500.jpg" alt="" srcset="" width="100%">
+      <h1>
+        Alpukat Kocok
+      </h1><br>
+      <h3>Bahan</h3>
+      <p>
+      -  2 buah alpukat mentega
+      <br> -  3 sdm kental manis
+      <br> -  es serut secukupnya
+      <br> -  1 buah pisang, potong-potong kecil (optional)
+      <br> -  bubuk milo secukupnya               
+      <br>
+      </p>
+      <h3>Cara Membuat</h3>
+       <p>
+        Langkah 1 - 
+        Keruk degan sendok alpukat ke dalam gelas, campurkan dengan 1 sdm kental manis, kocok hingga hancur dengan sendok.
+
+     
+        <br>
+        Langkah 2 - Tuang es serut ke dalam gelas, tambahkan potongan buah pisang, tutup lagi dengan es serut.
+
+        <br>
+        Langkah 3 - Tuang kental manis di atasnya.
+        Es alpukat kocok siap dinikmati. Campurkan hingga rasanya lebih menyatu
+
+        <br>
+       </p>
+    </div>
+  </div>
+</div>
+<div id="id10" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id10').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <img src="https://www.allrecipes.com/thmb/ci6Ne5EGfT79de-zCg8WiWwjMN4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/147363-TheRealMojito_115-37ba3db19cab4664ba43b09e3676aeb0.jpg" alt="" srcset="" width="100%">
+      <h1>
+        Mojito Cuy
+      </h1><br>
+      <h3>Bahan</h3>
+      <p>
+      <b>Bahan sirup lime: </b>
+      <br>  - 1 buah jeruk nipis
+      <br>  - 3 batang daun mint muda
+      <br>  - 1 sdm gula (sesuai selera)
+        <br>
+      <b>Mojito: </b>
+      <br>  - 1 botol soda ukuran 390 ml
+      <br>  - Es batu secukupnya
+        <br>
+      <b>Garnish: </b>
+      <br>  - Potongan tipis jeruk nipis
+      <br>  - Daun mint secukupnya
+      <br>
+      </p>
+      <h3>Cara Membuat</h3>
+       <p>
+        Sirup lime: cuci bersih jeruk nipis lalu potong kecil, taruh dalam gelas lalu tambahkan daun mint dan gula. Aduk sambil ditekan hingga gula larut.
+
+     
+        <br>
+        Siapkan gelas tuang sirup lime yang tadi dibuat, lalu es batu, tambahkan garnish, dan terakhir tuang soda
+        <br>
+        Sajikan.
+
+
+        <br>
+       </p>
+    </div>
+  </div>
+</div>
+<div id="id11" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id11').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <img src="https://www.heromea.com/jam/sites/mea.jam/files/styles/1200x1200/public/shutterstock_278759741_1.jpg?itok=w54p605S" alt="" srcset="" width="100%">
+      <h1>
+        Strawberry Jam
+      </h1><br>
+      <h3>Bahan</h3>
+      <p>
+        <b>Bahan Baku</b><br>
+          - 10-15 buah strawberry
+        <br>  - 3 sdm gula pasir
+        <br>  - Air                
+        <br>
+         <b>
+          Pelengkap:    
+          </b><br>
+            - 1 sdm keju prochiz spread / keju oles
+        <br>  -  Susu UHT putih
+        <br>  -  Es batu          
+          <br>
+        
+      </p>
+      <h3>Cara Membuat</h3>
+       <p>
+        Langkah 1 - 
+        Blender atau parut strawberry sampai menjadi lembut
+        <br>
+        Langkah 2 - Panaskan teflon, kemudian masukkan strawberry ke dalam teflon. Tambahkan 3 sdm gula pasir dan air secukupnya.
+        <br>
+        Langkah 3 - Aduk-aduk hingga mendidih. Cicipi sesuai selera, apabila kurang manis bisa ditambah gula pasir. Jika sudah mengental, matikan kompor.
+        <br>
+        Langkah 4 - Siapkan susu UHT putih/full cream untuk 2 gelas. Masukkan susu ke dalam blender, masukkan keju spread. Blender hingga tercampur.
+        <br>
+        Langkah 5 - Tuang strawberry yang sudah matang tadi ke dalam gelas. Masukkan es batu sesuai selera. Tuang susu yang telah diblender bersama keju.
+        <br>
+        Langkah 6 - Aduk dahulu sebelum diminum. Selamat menikmati.       <br>
+
+       </p>
+    </div>
+  </div>
+</div>
+<div id="id12" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id12').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <p>Some text. Some text. Some text.</p>
+      <p>Some text. Some text. Some text.</p>
+    </div>
+  </div>
+</div>
+<div id="id13" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id13').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <p>Some text. Some text. Some text.</p>
+      <p>Some text. Some text. Some text.</p>
+    </div>
+  </div>
+</div>
+<div id="id14" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id14').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <p>Some text. Some text. Some text.</p>
+      <p>Some text. Some text. Some text.</p>
+    </div>
+  </div>
+</div>
+<div id="id15" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id15').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <p>Some text. Some text. Some text.</p>
+      <p>Some text. Some text. Some text.</p>
+    </div>
+  </div>
+</div>
+<div id="id16" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id16').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <p>Some text. Some text. Some text.</p>
+      <p>Some text. Some text. Some text.</p>
+    </div>
+  </div>
+</div>
+<div id="id17" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id17').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <p>Some text. Some text. Some text.</p>
+      <p>Some text. Some text. Some text.</p>
+    </div>
+  </div>
+</div>
+<div id="id18" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id18').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <p>Some text. Some text. Some text.</p>
+      <p>Some text. Some text. Some text.</p>
+    </div>
+  </div>
+</div>
+<div id="id19" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id19').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <p>Some text. Some text. Some text.</p>
+      <p>Some text. Some text. Some text.</p>
+    </div>
+  </div>
+</div>
+<div id="id20" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id20').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <p>Some text. Some text. Some text.</p>
+      <p>Some text. Some text. Some text.</p>
+    </div>
+  </div>
+</div>
+<div id="id21" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('id21').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <p>Some text. Some text. Some text.</p>
+      <p>Some text. Some text. Some text.</p>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://instagram.com/jisong710" title="" target="_blank" class="w3-hover-text-green">Jisong710</a></p>
+</footer>
+</div>
+</body>
+</html>
